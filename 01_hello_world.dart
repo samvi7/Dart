@@ -1,12 +1,14 @@
 void main() {
-  
-//   var myName = 'Sam';
-//   late final myName;
-//   String myName = 'Sam';
-  const myName = 'Sma';
+
+  var nombre = 'samuel';
+  int edad = 30;
+  String telefono = '7151234567';
+
+  final ocupacion = 'estudiante';
+  const pi = 3.1416
     
-  
-  print('Hola $myName');
-  print('Hola ${ myName.toUpperCase() }');
+  print('Hola $nombre');
+  print('Hola ${ nombre.toUpperCase() }');
   print('Hola ${ 1 + 1 }');
+  print('Hola ${ pi * 2 }');
 }
